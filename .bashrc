@@ -4,6 +4,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 alias ll='ls -la'
 alias la='ls -a'
+export EDITOR=$(which vim)
 
 # rbenv
 eval "$(rbenv init -)"

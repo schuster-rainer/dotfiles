@@ -12,6 +12,7 @@ fi
 
 # Customize to your needs...
 export LC_ALL=en_US.UTF-8
+export EDITOR=$(which vim)
 alias nv=nvim
 alias vc=vimcat
 
