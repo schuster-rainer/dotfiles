@@ -18,3 +18,5 @@ if [ -f `brew --prefix`/etc/bash_completion.d/vagrant ]; then
 fi
 
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
